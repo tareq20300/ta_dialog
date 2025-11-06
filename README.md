@@ -21,7 +21,7 @@ exports
 ```
 ## showDialog
 ```lua
-exports.bl_dialog:showDialog(data)
+exports.ta_dialog:showDialog(data)
 ```
 
 #### data: `table`
@@ -74,13 +74,13 @@ exports.bl_dialog:showDialog(data)
 
 ## switchDialog
 ```lua
-exports.bl_dialog:switchDialog(dialogId)
+exports.ta_dialog:switchDialog(dialogId)
 ```
 #### dialogId: `number|string`
 
 # Example
 ```lua
-local lastButtonId = exports.bl_dialog:showDialog({
+local lastButtonId = exports.ta_dialog:showDialog({
     ped = ped,
     dialog = {
         {
@@ -134,5 +134,5 @@ local lastButtonId = exports.bl_dialog:showDialog({
 
 -- lastButtonId should be == `end`
 
-exports.bl_dialog:switchDialog(dialogId)
+exports.ta_dialog:switchDialog(dialogId)
 ```
