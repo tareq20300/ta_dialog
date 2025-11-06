@@ -22,3 +22,4 @@ client_script {
 files {
     'build/**',
 }
+--حقوق:  https://discord.gg/xHENuFcd45
