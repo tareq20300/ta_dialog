@@ -1,5 +1,5 @@
 ---
-title: exports
+exports
 ---
 
 ## Data type
